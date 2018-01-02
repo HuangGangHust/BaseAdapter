@@ -13,7 +13,7 @@ A common base adapter project for RecyclerView in Android.It support using multi
 
 1. 在项目的根目录的build.gradle文件中（注意：不是module的build.gradle文件）加入如下依赖：
 
-   ```
+   ```groovy
    allprojects {
    	repositories {
    		...
@@ -25,7 +25,7 @@ A common base adapter project for RecyclerView in Android.It support using multi
 
 1. 在module的build.gradle文件中加入如下依赖：
 
-   ```
+   ```groovy
    dependencies {
        compile 'com.github.HuangGangHust:BaseAdapter:1.0.0'
    }
