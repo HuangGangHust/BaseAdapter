@@ -11,11 +11,13 @@ import com.huanggang.sample.R;
  */
 public class ExampleItemSupport extends BaseItemSupport<Project> {
     public ExampleItemSupport() {
+	    // 直接传入该Item的layout即可
         super(R.layout.item_example);
     }
 
     @Override
     public boolean isMatched(Project itemData, int position) {
+	    // 匹配使用该类型Item的条件，return true时表示使用该类型Item
         return position % 2 == 0;
     }
 

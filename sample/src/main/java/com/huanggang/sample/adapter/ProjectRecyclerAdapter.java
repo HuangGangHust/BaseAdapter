@@ -15,11 +15,13 @@ import java.util.List;
  */
 public class ProjectRecyclerAdapter extends BaseSingleItemAdapter<Project> {
     public ProjectRecyclerAdapter(RecyclerView recyclerView, List datas) {
-        super(recyclerView, datas, R.layout.item_project);
+        // 直接传入该Item的layout即可
+		super(recyclerView, datas, R.layout.item_project);
     }
 
     @Override
     public void onBind(BaseViewHolder viewHolder, Project itemData, int position, int scrollState) {
+	    // 在此处直接写业务逻辑。无需编写实例化代码，一行代码搞定各种设置。
         viewHolder.setText(R.id.tv_project_name, itemData.getProjectName());
         int status = itemData.getStatus();
         String statusStr = "未勘点";
