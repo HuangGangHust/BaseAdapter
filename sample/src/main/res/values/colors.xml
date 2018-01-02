@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- 字体颜色 -->
+    <!-- 87%黑色 -->
+    <color name="black87">#DF000000</color>
+    <!-- 54%黑色 -->
+    <color name="black54">#54000000</color>
+    <!-- 27%黑色 -->
+    <color name="black27">#27000000</color>
+
+    <!-- 背景颜色 -->
+    <!-- 透明色 -->
+    <color name="trans">#00000000</color>
+    <!-- 白色 -->
+    <color name="white">#ffffff</color>
+    <color name="gray">#e5e5e5</color>
+</resources>
