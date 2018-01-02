@@ -3,7 +3,7 @@ Android RecyclerView的万能Adapter。支持多类型Item，支持设置Header�
 
 A common base adapter project for RecyclerView in Android.It support using multi-type item, and setting header, footer, emptyview, loading more, anim,update list,click listener, long click listener and any others in common use for RecyclerView or its adapter.
 
-![](https://jitpack.io/v/HuangGangHust/SlideDrawerHelper.svg)](https://jitpack.io/#HuangGangHust/BaseAdapter)
+[![](https://jitpack.io/v/HuangGangHust/BaseAdapter.svg)](https://jitpack.io/#HuangGangHust/BaseAdapter)
 
 [下载示例APK体验](https://github.com/HuangGangHust/BaseAdapter/raw/master/BaseAdapterSample-debug.apk)
 
