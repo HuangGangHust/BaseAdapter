@@ -73,7 +73,8 @@ mRecyclerView.setAdapter(new ProjectRecyclerAdapter(mRecyclerView, mDatas));
 对于多中itemviewtype的处理参考：https://github.com/sockeqwe/AdapterDelegates ，具有极高的扩展性。
 
 ``` java
-BaseRecyclerAdapter multiItemAdapter = new BaseRecyclerAdapter<>(recyclerView, projects).addItemSupport(new ExampleItemSupport())// 设置类型1列表项
+BaseRecyclerAdapter multiItemAdapter = new BaseRecyclerAdapter<>(recyclerView, projects)
+         .addItemSupport(new ExampleItemSupport())// 设置类型1列表项
          .addItemSupport(new ProjectItemSupport());// 设置类型2列表项
 ```
 
