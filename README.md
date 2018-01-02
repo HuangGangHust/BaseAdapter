@@ -199,8 +199,14 @@ public void onCreate(BaseViewHolder viewHolder, View convertView) {
 
 ## 感谢
 
-* [https://github.com/JoanZapata/base-adapter-helper](https://github.com/JoanZapata/base-adapter-helper)
-* [https://github.com/sockeqwe/AdapterDelegates](https://github.com/sockeqwe/AdapterDelegates)
 * https://github.com/hongyangAndroid/baseAdapter
-* 以及其他一些我可能参考了某些思路的开源作者。
 
+  最初看到他ListView的万能适配器博客之后开始研究使用起来的，怎奈里面Bug太多，解了一个又一个，后来改用RecyclerView之后，一怒之下自己封装了一套。里面header、footer、加载更多等采用的装饰者模式的思路不错，与ListView设置headerview的adapter源码类似，但是使用起来感觉有点麻烦和混乱，所以未采用。
+
+* [https://github.com/JoanZapata/base-adapter-helper](https://github.com/JoanZapata/base-adapter-helper)
+
+  参考多种ItemType绑定数据方式。
+
+* [https://github.com/sockeqwe/AdapterDelegates](https://github.com/sockeqwe/AdapterDelegates)
+
+* 以及其他我可能参考了某些思路的开源作者。
